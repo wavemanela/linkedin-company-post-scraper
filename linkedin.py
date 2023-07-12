@@ -87,6 +87,7 @@ def create_screenshots(posts, company, browser):
 
 def logout_linkedin(browser):
     wait = WebDriverWait(browser, 10)
+    wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@class,'global-nav__primary-link')][contains(.,'Me')]"))).click()
     wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "a[href*='logout']"))).click()
 
 
