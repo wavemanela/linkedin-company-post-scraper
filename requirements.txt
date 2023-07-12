@@ -1,0 +1,2 @@
+linkedin-api @ git+https://github.com/tomquirk/linkedin-api.git@e66bb5e217ab3383f4c2a6a25f8cd793b5b20b61
+selenium
