@@ -13,7 +13,9 @@ Install the dependencies via
 pip install -r requirements.txt
 ```
 
-then run `linkedin.py` with the requested parameters
+Additonally, chromedriver needs to be in your `$PATH`.
+
+Then run `linkedin.py` with the requested parameters
 * `-u` LinkedIn username
 * `-p` LinkedIn password
 * `-c` the company you're interested in
